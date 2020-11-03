@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wlsbig1 img{
+width: 100%;
+}
+.wlsbig2{
+    width: 100%;
+    height: 500px;
+    background: palegreen;
+}
+.wlsbig3 img{
+        width: 100%;
+}
+.wlswarp{
+    width: 100%;
+    display:flex;
+}
+.wlsleftone{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 20px;
+}
+.wlsbox .wlsinfo{
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+   
+}
+.wlsbox .wlsinfo dl{
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    flex: 1;
+}
+.wlsbox .wlsinfo dl dt{
+    width: 90px;
+    height: 50px;
+    padding: 0 20px;
+}
+.wlsbox .wlsinfo dl dt img{
+    width: 100%;
+    height: 100%;
+}
+
+.wlsbox .wlsinfo dl dd p{
+	line-height:22px;
+	padding:10px 0px;
+}
+.wlsbox .wlsinfo dl dd .wlstitle{
+    font-size: 15px;
+}
+.wlsbox .wlsinfo .wlsbtn button{
+    border: none;
+    outline: none;
+    background: #df658c;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+.wlsbox .wlsinfo .wlsbtn{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wlsrightone{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 30px 0px;
+    box-sizing: border-box;
+}
+
+.wlsrightone .wlsmap{
+    width: 320px;
+    height: 80%;
+    margin-left: 100px;
+}

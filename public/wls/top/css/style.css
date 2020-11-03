@@ -1,0 +1,101 @@
+
+.box{
+    width: 100%;
+    /*height: 100%;*/
+    flex-direction: column;
+    background:white;
+    z-index:9999;
+    
+}
+.top{
+    width: 100%;
+    height: 53px;
+    display: flex;
+    z-index:99;
+    position: fixed;
+    background:white;   
+}
+.center{
+    flex:1;
+    overflow: auto;
+    padding-top: 53px;
+}
+/* .topleft{
+    flex: 1;
+}
+.topright{
+    flex: 1;
+} */
+.topcenter{
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+}
+/* 头部 问鼎教育字体大小 */
+.topcenter p:nth-child(1){
+    margin: 0;
+    padding:  0 0.1rem;
+    width: 2.2rem;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    font-size: 0.2rem;
+    color: #c44a73;
+    font-weight: bold;
+}
+.topcenter p:nth-child(1) img{
+    width: 0.4rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: 0 0.08rem 0 0;
+}
+.topcenter ul{
+    margin: 0;
+   flex: 1;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+.topcenter ul li{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.topcenter ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.13rem;
+}
+.topcenter_P{
+    margin: 0;
+    padding:  0 0.1rem;
+    width: 2.2rem;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    font-size: 0.2rem;
+    color: #a9679d;
+    font-weight: bold;
+}
+.topcenter_P img{
+    width: 0.4rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: 0 0.08rem 0 0;
+}
+
+.center{
+   width: 100%;
+}
+.footer{
+    width: 100%;
+    height: 121px;
+    background: black;
+}

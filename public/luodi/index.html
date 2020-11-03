@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KMS校区孵化系统</title>
+    <link rel="stylesheet" href="http://www.hswdedu.com/css/animate.css">
+    <script src="http://www.hswdedu.com/wls/top/js/jquery-3.2.1.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .banner {
+            width: 100%;
+            height: 500px;
+        }
+
+        .kms_modle {
+            height: 760px;
+            width: 100%;
+            background: #fff;
+        }
+
+        .kms_modle1 {
+            width: 100%;
+            height: 553px;
+            background: #f7fbff;
+            overflow: hidden;
+        }
+
+        .kms_modle2 {
+            width: 100%;
+            height: 553px;
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .kms_conten {
+            display: flex;
+            width: 1073px;
+            margin: 0 auto;
+            margin-top: 115px;
+            justify-content: space-between;
+        }
+
+        .kms_title {
+            width: 282px;
+            height: 81px;
+            font-size: 35px;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 1);
+            text-align: right;
+            margin-left: 120px;
+            margin-bottom: 32px;
+        }
+
+        .kms_title1 {
+            width: 320px;
+            height: 81px;
+            font-size: 35px;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 1);
+            margin-bottom: 32px;
+        }
+
+        .kms_inof {
+            width: 401px;
+            height: 112px;
+            font-size: 18px;
+            font-weight: 400;
+            color: rgba(113, 113, 113, 1);
+            line-height: 31px;
+        }
+
+        .kms_img {
+            width: 579px;
+            height: 316px;
+        }
+
+        .kms_btn {
+            width: 150px;
+            height: 42px;
+            background: linear-gradient(179deg, rgba(77, 176, 227, 1), rgba(81, 113, 249, 1));
+            border-radius: 10px;
+            font-size: 24px;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 1);
+            line-height: 42px;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 40px;
+            cursor: pointer;
+        }
+
+        .kms_js p {
+            width: 1019px;
+            height: 156px;
+            font-size: 18px;
+            font-family: Microsoft YaHei;
+            font-weight: 300;
+            color: rgba(0, 0, 0, 1);
+            line-height: 35px;
+            margin: 0 auto;
+            text-align: justify;
+            text-indent: 2em;
+            margin-top: 65px;
+            padding-bottom: 60px;
+            border-bottom: 1px solid #c9c9c9;
+        }
+
+        .kms_ys {
+            width: 685px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .kms_ys h1 {
+            font-size: 31px;
+            margin-top: 75px;
+            margin-bottom: 40px;
+            text-align: center;
+            color: rgba(0, 0, 0, 1);
+
+        }
+
+        .kms_ys p {
+            font-size: 19px;
+            color: rgba(127, 127, 131, 1);
+            margin-bottom: 70px;
+
+        }
+
+        .kms_nav {
+            display: flex;
+            justify-content: space-between;
+            width: 595px;
+            margin: 0 auto;
+        }
+
+        .kms_nav div {
+            text-align: center;
+            cursor: pointer;
+            transition: all .3s ease;
+        }
+
+        .kms_nav div:hover {
+            transform: scale(1.2);
+        }
+
+        .kms_nav p {
+            font-size: 19px;
+            margin-top: 26px;
+            font-weight: 400;
+            color: rgba(2, 2, 2, 1);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="KMS_01.jpg" alt="" class="banner">
+    </div>
+    <div class="kms_modle">
+        <div class="kms_js">
+            <p>
+                KMS校区智能孵化系统，专注于校区全业务培训服务体系，为校区打造从教研教学、教师备课、运营服务、岗位培训的全业务信息化服务平台。校区可设置阶梯型管理课程权限，提高课程保密度，快速提升校区教师、运营、招生、市场等各模块的人才培养。大大提高校区团队的稳定性。
+                KMS校区智能孵化系统包含翰师问鼎全部课件、教案、说课视频。总部定期更新、升级课程，保障课程质量及时效性，为您校区的教学质量保驾护航。
+            </p>
+
+        </div>
+        <div class="kms_ys">
+            <h1>轻松打造在线高效学习平台</h1>
+            <p>全套课程产品课件、教案、音频、视频、备课、培训文件，快速提升培训管理效率</p>
+        </div>
+        <div class="kms_nav">
+            <div>
+                <img src="KMS_04.jpg" alt="">
+                <p>培训标准化</p>
+            </div>
+            <div>
+                <img src="KMS_06.jpg" alt="">
+                <p>2000+优质课程</p>
+            </div>
+            <div>
+                <img src="KMS_08.jpg" alt="">
+                <p>校区量身打造</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="kms_modle1" id="kms1">
+        <div class="kms_conten">
+            <div  id="kms1_inof">
+                <p class="kms_title">
+                    打破时间地域限制
+                    让教学更简单
+                </p>
+                <p class="kms_inof">
+                    告别以往单一枯燥的文档/PPT等内容形式，通过标准化课件、图文、音频、视频、培训、课件共享等互动形式，既丰富了培训课程的可读性，也能让受培员工反复学习培训内容。
+                </p>
+                <div class="kms_btn">
+                    免费试用
+                </div>
+
+            </div>
+            <div id="kms1_img">
+                <img src="KMS_14.jpg" alt="" class="kms_img">
+            </div>
+        </div>
+    </div>
+    <div class="kms_modle2" id="kms2">
+        <div class="kms_conten" >
+            <div id="kms2_img">
+                <img src="KMS_18.jpg" alt="" class="kms_img">
+            </div>
+
+            <div id="kms2_inof">
+                <p class="kms_title1">
+
+                    总部课程赋能校区
+                    专属本地化教学资源
+
+                </p>
+                <p class="kms_inof">
+                    将总部教学过程中的题目、试卷、课件、教案等在系统中进行留存，校区可根据教学效果对相关教材进行个性化的整合、编排，形成一套本地化教材体系。
+                </p>
+                <div class="kms_btn">
+                    免费试用
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="kms_modle1" id="kms3">
+        <div class="kms_conten">
+            <div class="kms_left" id="kms3_inof">
+                <p class="kms_title" style="width: 367px; margin-left: 34px;">
+
+                    实现教学流程标准化
+                    教研管理效率提升70%
+
+                </p>
+                <p class="kms_inof">
+                    总部优秀课程完全输出共享，校区可通过总部课程制定标准化工作流程，供新老师演练复制，轻松管控校验教学工作中各个环节！ </p>
+                <div class="kms_btn">
+                    免费试用
+                </div>
+
+            </div>
+            <div  id="kms3_img">
+                <img src="KMS_22.jpg" alt="" class="kms_img">
+            </div>
+        </div>
+    </div>
+    <div class="kms_modle2" id="kms4">
+        <div class="kms_conten">
+            <div  id="kms4_img">
+                <img src="KMS_26.jpg" alt="" class="kms_img">
+            </div>
+
+            <div class="kms_right" id="kms4_inof">
+                <p class="kms_title1" style="width: 350px;">
+
+                    云端集结优质教学资源
+                    轻松培养复制好老师
+
+                </p>
+                <p class="kms_inof">
+                    通过KMS校区智能孵化系统统一教研方案形成教学标准，无论哪个老师上课，都可以根据标准化的教学过程进行课堂授课，以获得最佳的教学效果。 </p>
+                <div class="kms_btn">
+                    免费试用
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="kms_modle1" id="kms5">
+        <div class="kms_conten">
+            <div class="kms_left" id="kms5_inof">
+                <p class="kms_title">
+
+                    标准化培训课程
+                    提高员工专业技能
+
+                </p>
+                <p class="kms_inof">
+                    通过总部课程开发、培训计划，为校区各岗位规划成长路线，直接解决做课成本高、找课难等培训难题，从而实现培训体系化、培训效果量化
+                <div class="kms_btn">
+                    免费试用
+                </div>
+
+            </div>
+            <div id="kms5_img">
+                <img src="KMS_30.jpg" alt="" class="kms_img">
+            </div>
+        </div>
+    </div>
+    <div class="kms_modle2" id="kms6">
+        <div class="kms_conten" >
+            <div id="kms6_img">
+                <img src="KMS_34.jpg" alt="" class="kms_img">
+            </div>
+            <div class="kms_right"id="kms6_inof">
+                <p class="kms_title1" style="width: 350px;">
+                    安全加密技术
+                    一键管理老师权限
+                </p>
+                <p class="kms_inof">
+                    一键管理受培员工与教师授课学习权限，支持自定义权限管理，剪掉繁琐流程，让整个校区培训体系变得清晰明了。</p>
+                <div class="kms_btn">
+                    免费试用
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+<script>
+var a, b, c;
+	a = $(window).height();
+	$(window).scroll(function() {
+		var b = $(this).scrollTop();
+		$("#kms1").each(function() {
+			c = $(this).offset().top;
+			if(a + b > c) {
+				$("#kms1_inof").addClass("animated bounceInLeft");
+				$("#kms1_img").addClass("animated bounceInRight");
+			}
+        });
+        $("#kms2").each(function() {
+			c = $(this).offset().top;
+			if(a + b > c) {
+				$("#kms2_inof").addClass("animated bounceInRight");
+				$("#kms2_img").addClass("animated bounceInLeft");
+			}
+        });
+        $("#kms3").each(function() {
+			c = $(this).offset().top;
+			if(a + b > c) {
+				$("#kms3_inof").addClass("animated bounceInLeft");
+				$("#kms3_img").addClass("animated bounceInRight");
+			}
+        });
+        $("#kms4").each(function() {
+			c = $(this).offset().top;
+			if(a + b > c) {
+				$("#kms4_inof").addClass("animated bounceInRight");
+				$("#kms4_img").addClass("animated bounceInLeft");
+			}
+        });
+        $("#kms5").each(function() {
+			c = $(this).offset().top;
+			if(a + b > c) {
+				$("#kms5_inof").addClass("animated bounceInLeft");
+				$("#kms5_img").addClass("animated bounceInRight");
+			}
+        });
+        $("#kms6").each(function() {
+			c = $(this).offset().top;
+			if(a + b > c) {
+				$("#kms6_inof").addClass("animated bounceInRight");
+				$("#kms6_img").addClass("animated bounceInLeft");
+			}
+        });
+
+
+
+
+	});
+
+</script>
+
+</html>
